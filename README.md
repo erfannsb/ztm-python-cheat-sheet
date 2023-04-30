@@ -592,8 +592,8 @@ print(result) #55
 ```
 
 Comprehensions
-#### it's just like JavaScript maps (sort of)
 ------
+it's kinda like JavaScript Maps
 ```python
 <list> = [i+1 for i in range(10)]         # [1, 2, ..., 10]
 <set>  = {i for i in range(10) if i > 5}  # {6, 7, 8, 9}
@@ -610,6 +610,18 @@ for i in range(3):
   for j in range(3):
     output.append(i+j)
 ```
+also if you want to use if else
+
+However, this code [x+1 if x >= 45 else x+5 for x in l] does this (after rearranging the expression):
+
+```python
+for x in l:
+
+    if x>=45: x+1
+
+    else: x+5
+```
+
 
 Ternary Condition
 -------
