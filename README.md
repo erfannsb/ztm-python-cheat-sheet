@@ -234,6 +234,7 @@ for row in range(len(mx)):
 ```
 
 ```python
+#it's kinda like JavaScript maps
 # List Comprehensions
 # new_list[<action> for <item> in <iterator> if <some condition>]
 a = [i for i in 'hello']                  # ['h', 'e', 'l', 'l', '0']
