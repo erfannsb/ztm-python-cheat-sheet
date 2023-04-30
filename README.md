@@ -592,6 +592,7 @@ print(result) #55
 ```
 
 Comprehensions
+#### it's just like JavaScript maps (sort of)
 ------
 ```python
 <list> = [i+1 for i in range(10)]         # [1, 2, ..., 10]
