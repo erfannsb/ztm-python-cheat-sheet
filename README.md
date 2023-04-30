@@ -612,7 +612,7 @@ for i in range(3):
 ```
 also if you want to use if else
 
-However, this code [x+1 if x >= 45 else x+5 for x in l] does this (after rearranging the expression):
+However, this code &[x+1 if x >= 45 else x+5 for x in l]& does this (after rearranging the expression):
 
 ```python
 for x in l:
